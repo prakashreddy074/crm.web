@@ -16,7 +16,7 @@ public class LoginTest {
 		driver.get("https://www.facebook.com/");
 		//driver.findElement(By.xpath("//input[@id='email']"));
 		String act=driver.getTitle();
-		String expt= "Facebook – log iqn or sign up";
+		String expt= "Facebook – log iqn or sigmmn up";
 		if(expt.equals(act))
 		{
 		System.out.println("titlr as expected");
